@@ -1,0 +1,12 @@
+name: 'Python autograde'
+description: 'autograde python project'
+inputs:
+  grade:
+    description: 'token'
+    default: ''
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.grade }}
