@@ -5,6 +5,7 @@ set -ue
 API_KEY=$1
 echo "📝 hello"
 echo "⚙️  building enviroment"
+echo "TRICK OR TREAT"
 
 GIT_URL=${GITHUB_REPOSITORY}
 
